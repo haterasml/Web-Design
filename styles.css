@@ -1,0 +1,147 @@
+@font-face {
+    font-family: BoldeRough;
+    src: url(BoldeRough.otf);
+}
+
+html{
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+    color: #fff;
+    margin:0px;
+    padding:0px;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-x: hidden;
+    font-family:BoldeRough;
+    background-color: rgb(105,105,105);
+    text-decoration: none;
+
+}
+
+
+header{
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 30vw 0 5vw;
+    position: relative;
+    transform-style: inherit;
+}
+header h1{
+    margin-top: -350px;
+    text-align: center;
+
+}
+
+header, header:before{
+    background: 50% 50% / cover;
+}
+
+
+header::before{
+    bottom: 0;
+    content: "";
+    left: -5.6px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background-image: url(header.jpg);
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+}
+
+
+header *{
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    text-align: justify;
+    margin: 20px;
+    padding:1em 0;
+}
+
+
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    padding: 11px 50px;
+
+
+}
+li a:hover {
+    color: white;
+    background-color:#293d3d;
+    box-sizing: border-box;
+
+
+}
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    background-color:#334d4d;
+    overflow: hidden;
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.footer{
+    box-sizing: border-box;
+    padding:20px;
+    background: #334d4d;
+    margin-top: 900px;
+    overflow: visible;
+}
+
+.blockdiv{
+    box-sizing: border-box;
+    background:rgba(0,51,102,0.6);
+    height: auto;
+    width: auto;
+    position: relative;
+    margin-top: -100px;
+}
+
+.blockdiv>p{
+    margin:10px;
+    font-size: 18px;
+    margin-right:60%;
+    overflow: hidden;
+    letter-spacing: 0;
+
+}
+
+.anchor button{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+
+    right: 30px;
+    margin-bottom: 0px;
+    background: transparent;
+    border: 2px solid #008040;
+    outline: none;
+    color: #000;    
+    background: #00e673;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+}

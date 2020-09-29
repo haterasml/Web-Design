@@ -1,0 +1,98 @@
+@font-face {
+    font-family: BoldeRough;
+    src: url(BoldeRough.otf);
+}
+body{
+	margin:0;
+	padding:0;
+	background: url(bg.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family:BoldeRough;
+}
+
+.box{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-60%);
+	width: 500px;
+	padding: 50px;
+	background: rgba(255,255,255,0.5);
+	box-sizing: border-box;
+	box-shadow:0 15px 350px rgba(255,255,255,0.5);
+	border-radius: 25px;
+}
+
+.box h2{
+	margin : 0 0 30px;
+	padding: 0px;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.box .inputBox {
+	position: relative; 
+}
+
+.box .inputBox input{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 30px;
+	border:none;
+	border-bottom: 1px solid #000;
+	outline: none;
+	background: transparent;
+}
+
+.box .inputBox label{
+	position: absolute;
+	top:0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 18px;
+	color: #000;
+	pointer-events: none;
+	transition: .5s;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label{
+	top: -30px;
+	color: 	#000;
+	font-size: 17px;
+}
+
+.box input[type="submit"]
+{
+	border: 2px solid #008040;
+	outline: none;
+	color: #000;	
+	background: #00e673;
+	padding: 12px 20px;
+	cursor: pointer;
+	border-radius: 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.box span{
+	position: relative;
+	margin-left:60px;
+	top:15px;
+}
+
+.box span input[type="button"]
+{
+	background: transparent;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	color:#05c766;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Programs</title>
+	<link rel="stylesheet" type="text/css" href="navbar.css">
+	 <meta name="viewpoint" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+	 <script type="text/javascript" src="test123.js"></script>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js">
+	</script>
+	 <meta charset="utf-8">
+</head>
+
+<script >
+	
+		$(document).ready(function()
+	{
+		$("#color").toggle(
+			function()
+			{
+				$("a").css({"color": "#05d3da"})
+				$("header").css({"background":"rgba(15, 82, 76, 0.8)"})
+				$("input").css({"border":"1.5px solid #05d3da","color":"#05d3da"})
+				$(".footer").css({"background":"rgba(15, 82, 76, 0.8)","color":"#05d3da"})
+				$("i").css({"color":"#05d3da"})
+				$("body").css({"background-color":"rgba(15, 82, 76,1)"});
+			},
+
+			function()
+			{
+				$("a").css({"color": "white"})
+				$("header").css({"background":"rgba(252, 47, 1, 0.8)"})
+				$("input").css({"border":"1.5px solid white","color":"white"})
+				$(".footer").css({"background":"rgba(252, 47, 1, 1)","color":"white"})
+				$("i").css({"color":"white"})
+				$("body").css({"background-color":"rgba(252, 47, 1,1)"});
+			}	
+			)
+	})
+</script>
+
+<body>
+
+<header id="header">
+
+  <h1 class="logo"> <img src="burgerLogo.png"> </h1>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <nav >
+    <ul>
+      <li><a href="Responsive nav bar.html">Home</a></li>
+      <li><a href="Programs.html">Programs</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#ABOUT">About</a></li>
+      <li><a href="LoginForma.html">Login</a></li>
+  	  
+    </ul>
+  </nav>
+  <input type="button" id="color" value="Change colors" >
+
+  <label for="nav-toggle" class="nav-toggle-label">
+    <span></span>
+  </label>
+</header>
+
+
+
+<div class="content">
+	<h2 class="content cnt-head"> Your content will go here</h2>
+<p class="cnt-p">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+
+
+
+
+
+<p  class="cnt-p">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</p>
+
+</div>
+
+
+<div class="grid-template">
+	<div class="box1">
+		<h1>Box1</h1>
+	</div>
+
+	<div class="box2">
+		<h1>Box2</h1>
+	</div>
+	<div class="box3">
+		<h1>Box3</h1>
+	</div>
+	<div class="box4">
+		<h1>Box4</h1>
+	</div>
+	<div class="box5">
+		<h1>Box5</h1>
+	</div>
+	<div class="box6">
+		<h1>Box6</h1>
+	</div>
+</div>
+
+
+<div class="pizza" style="background-color: aquamarine; height:50vh;">
+
+
+</div>
+
+
+<div class="footer" id="footer">
+	<h1 id="ABOUT">About TechStoreBG</h1>
+	<div class="footer-grid">
+		
+
+		<ul>
+			<li><a href="#">Get to know us</a></li>
+			<li><a href="#"> Contact us</a></li>
+			<li><a href="#">FAQ</a></li>
+		</ul>
+		<span class="footer-refs">
+			<span >
+			<i class="fab fa-facebook-square"></i>
+			</span>
+			<span >
+			<i class="fab fa-instagram"></i>
+			</span>
+			<span >
+			<i class="fab fa-github"></i>
+			</span>
+			<span>
+			<i class="fab fa-linkedin-in"></i>
+			</span>
+			<span >
+			<i class="fab fa-twitter"></i>
+			</span>	
+
+		</span>
+
+	</div>
+
+</div >
+
+
+
+</body>
+
+
+</html>

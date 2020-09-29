@@ -1,0 +1,57 @@
+.gallery{
+	padding:10px;
+}
+
+.row-one{
+	box-sizing: border-box;
+	position: relative;
+	display: inline-block;
+}
+
+
+.row-one div{
+	padding: 0;
+	display: block;
+	align-items: center;
+
+}
+.row-one-img img {
+	width: 50vw;
+	height: 250px;
+	border: 2px solid blue;
+	margin: 1em;
+	display: inline-block;
+	border-radius: 10px;
+
+}
+
+
+@media screen and (min-width: 800px)
+{
+	.row-one div, .row-two div
+	{
+		display:inline-block;
+		margin: 0;
+		padding:0;
+	}
+
+	.row-one-img img{
+		width: 29vw;
+		height: auto;
+		padding:0;
+	}
+
+	.row-one-img p{
+		position:relative;
+	}
+
+	
+
+
+	.footer{
+		background-color: rgba(20,20,20,1);
+
+	}
+
+
+}
